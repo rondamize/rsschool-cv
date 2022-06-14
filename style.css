@@ -1,0 +1,292 @@
+@font-face {
+	font-family: Fairwall Sans; /* Имя шрифта */
+    src: url(assets/fonts/fairwall_sans/FairwallSans-Regular.otf);
+}
+
+body {
+    width: 1440px;
+	height: 6000px;
+	background: linear-gradient(180deg, rgba(191, 236, 255, 0.2) 0%, rgba(156, 226, 255, 0.2) 4.69%, rgba(91, 206, 255, 0.2) 8.85%, rgba(101, 208, 253, 0.2) 14.06%, rgba(61, 197, 255, 0.2) 21.35%, rgba(101, 208, 253, 0.2) 29.17%, rgba(101, 208, 253, 0.2) 35.42%, rgba(91, 206, 255, 0.2) 35.42%, rgba(91, 206, 255, 0.2) 42.19%, rgba(128, 217, 255, 0.2) 46.35%, rgba(156, 226, 255, 0.2) 52.6%, rgba(191, 236, 255, 0.2) 59.37%, rgba(156, 226, 255, 0.2) 69.79%, rgba(128, 217, 255, 0.2) 75%, rgba(61, 197, 255, 0.2) 86.46%, rgba(61, 197, 255, 0.2) 100%);
+	font-family: Fairwall Sans;
+	box-sizing: border-box;
+}
+
+.header-nav {
+	height: 140px;
+	border-bottom: 1px solid #6877FF;
+	font-size: 36px;
+	line-height: 43px;
+	text-transform: uppercase;
+	-webkit-text-stroke: 1px #6877FF;
+}
+
+.header-nav-ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	height: inherit;
+}
+
+li {
+	display: flex;
+	align-items: center;
+}
+
+
+main {
+	height: 884px;
+}
+
+.main-intro {
+	position: absolute;
+	width: 339px;
+	height: 195px;
+	left: 40px;
+	top: 333px;
+	font-family: 'Fairwall Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 78px;
+	line-height: 94px;
+	-webkit-text-stroke: 1px #6877FF;
+}
+
+.main-image {
+	position: absolute;
+	width: 663px;
+	height: 883px;
+	left: 388px;
+	top: 141px;
+	box-sizing: border-box;
+}
+
+h1 {
+	text-transform: uppercase;
+	position: absolute;
+	width: 486px;
+	height: 185px;
+	left: 889px;
+	top: 591px;
+	font-family: 'Fairwall Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 78px;
+	line-height: 94px;
+	text-align: right;
+	color: #000000;
+	-webkit-text-stroke: 1px #6877FF;
+}
+
+#bg-circle-1 {
+	position: absolute;
+	width: 321px;
+	height: 312px;
+	left: -102px;
+	top: 1655px;
+}
+
+.about-me-i {
+	position: absolute;
+	width: 51px;
+	height: 156px;
+	left: 38px;
+	top: 1733px;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 128px;
+	line-height: 156px;	
+	color: #000000;
+	-webkit-text-stroke: 1px #6877FF;
+}
+
+.about-me p {
+	font-family: 'Fairwall Sans';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 58px;
+	position: absolute;
+	color: #000000;
+	text-decoration-line: underline;
+}
+
+#about-me-1 {
+	position: absolute;
+	width: 651px;
+	height: 74.1px;
+	left: 28.94px;
+	top: 1310.74px;
+	transform: rotate(-48deg);
+}
+
+#about-me-2 {
+	width: 651px;
+	height: 60.91px;
+	left: 172px;
+	top: 1433.03px;
+	transform: rotate(-34deg);
+}
+
+#about-me-3 {
+	width: 1143px;
+	height: 58px;
+	left: 237px;
+	top: 1474.82px;
+	transform: rotate(-23deg);
+}
+
+#about-me-4 {
+	width: 1352px;
+	height: 94.63px;
+	left: 300px;
+	top: 1650.13px;
+	transform: rotate(-13deg);
+}
+
+#about-me-5 {
+	position: absolute;
+	width: 1111px;
+	height: 58px;
+	left: 328px;
+	top: 1872.15px;
+	transform: rotate(-3deg);
+}
+
+#about-me-6 {
+	position: absolute;
+	width: 871px;
+	height: 58px;
+	left: 329.92px;
+	top: 1997.75px;
+}
+
+.section-header {
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 58px;
+	-webkit-text-stroke: 1px #6877FF;
+}
+
+#section-header-1 {
+	position: absolute;
+	width: 375px;
+	height: 58px;
+	left: 54px;
+	top: 2222px;
+
+}
+
+.what-i-know ul {
+	position: absolute;
+	width: 980px;
+	height: 460px;
+	left: 58px;
+	top: 2299px;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 58px;
+}
+
+.what-i-know ul li:before{
+	content: "*";
+	align-content: center;
+	padding: 10px;
+	font-family: Fairwall Sans;
+}
+
+#section-header-2 {
+	position: absolute;
+	width: 323px;
+	height: 58px;
+	left: 53px;
+	top: 2877px;
+
+}
+
+code {
+	box-sizing: border-box;
+	position: absolute;
+	width: 1192px;
+	height: 608px;
+	left: 124px;
+	top: 2952px;
+	border: 1px solid #6877FF;
+	padding: 20px;
+}
+
+
+code pre {
+	font-family: 'PT Mono';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+#section-header-3 {
+	position: absolute;
+	width: 604px;
+	height: 58px;
+	left: 54px;
+	top: 3722px;
+}
+
+.experience-header {
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 170px;
+	top: 3825px;
+}
+
+.experience-header h3 {
+	font-weight: 300;
+	font-size: 48px;
+	line-height: 78px;
+	color: #6877FF;
+}
+
+.experience-header p {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 32px;
+	line-height: 50px;
+}
+
+.experience-info {
+	position: absolute;
+	width: 1185px;
+	height: 342px;
+	left: 83px;
+	top: 4002px;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 48px;
+	margin-top: 40px;
+}
+
+#section-header-4 {
+	position: absolute;
+	width: 706px;
+	height: 58px;
+	left: 101px;
+	top: 4388px;
+}
+
+.education-info {
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: 70px 456px 80px 650px;
+	position: absolute;
+	top: 4450px;
+	font-size: 32px;
+	line-height: 38px;
+	grid-gap: 20px;
+}
+
